@@ -1,0 +1,11 @@
+.encabezado{
+    background: #082d4e;
+    color: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titulo{
+    font-size: "10px";
+}
