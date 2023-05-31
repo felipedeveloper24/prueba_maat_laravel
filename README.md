@@ -9,45 +9,45 @@ Prueba que consiste en crear un crud de usuarios, en el cual se tienen que utili
 
 ## Instalación
 
-## Clonamos el proyecto
+### Clonamos el proyecto
 ```bash
 git clone https://github.com/felipedeveloper24/prueba_maat_laravel.git
 ```
 
-## Ingresamos a la carpeta del proyecto clonado
+### Ingresamos a la carpeta del proyecto clonado
 ```bash
 cd prueba_maat_laravel
 ```
 
-## Ejecutamos el siguiente comando para instalar las dependencias
+### Ejecutamos el siguiente comando para instalar las dependencias
 
 ```bash
 composer install
 ```
 
-## Correr Migración
+### Correr Migración
 
 ```bash
  php artisan migrate
 ```
 
-## Ejecutar Seeder
+### Ejecutar Seeder
 
 ```bash
  php artisan db:seed --class=UserTableSeeder
 ```
 
-## Generar Key
+### Generar Key
 
 ```bash
  php artisan key:generate
 ```
-## Arrancar proyecto
+### Arrancar proyecto
 
 ```bash
  php artisan serve
 ```
-## Acceso a proyecto en navegador
+### Acceso a proyecto en navegador
 
 ```bash
  http://localhost:8000/
