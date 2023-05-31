@@ -26,13 +26,15 @@ class UserTableSeeder extends Seeder
         $faker->addProvider(new DateTime($faker));
         $faker->addProvider(new UniqueGenerator($faker));
         for ($i = 0; $i < 10; $i++) {
-            $times = Carbon::now(); 
+            $randomMonths = rand(0, 12); // Número aleatorio de meses entre 0 y 12
+             $createdAt = Carbon::now()->subMonths($randomMonths);
+
             DB::table('users')->insert([
                 'name' => $faker->name,
                 'email' => $faker->unique()->email,
                 'password' => bcrypt('password'),
-                'created_at' => $times,
-                'updated_at' => $times,
+                'created_at' => $createdAt,
+                'updated_at' => $createdAt,
             ]);
         }
     }

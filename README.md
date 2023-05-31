@@ -1,6 +1,17 @@
 
 ## Instalación
 
+## Clonamos el proyecto
+```bash
+git clone https://github.com/felipedeveloper24/prueba_maat_laravel.git
+```
+
+## Ingresamos a la carpeta del proyecto clonado
+```bash
+cd prueba_maat_laravel
+```
+
+## Ejecutamos el siguiente comando para instalar las dependencias
 
 ```bash
 composer install
@@ -26,12 +37,17 @@ composer install
 ```bash
  php artisan db:seed --class=UserTableSeeder
 ```
+
+## Generar Key
+
+```bash
+ php artisan key:generate
+```
 ## Arrancar proyecto
 
 ```bash
  php artisan serve
 ```
-
 ## Acceso a proyecto en navegador
 
 ```bash
