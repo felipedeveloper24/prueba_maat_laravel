@@ -1,6 +1,12 @@
 ## Contexto
 Prueba que consiste en crear un crud de usuarios, en el cual se tienen que utilizar los modelos, controladores y vistas que posee laravel, en conjunto de ello con Mysql como base de datos relacional, se pide como requerimiento utilizar libreria de MaatWebSite/Excel para exportar los datos de los usuarios en un archivo excel.
 
+## Requisitos
+```bash
+ PHP 7.4.33
+ Laravel 8.75
+```
+
 ## Instalación
 
 ## Clonamos el proyecto
@@ -17,15 +23,6 @@ cd prueba_maat_laravel
 
 ```bash
 composer install
-```
-
-## Version de PHP
-```bash
- 7.4.33
-```
-## Version de Laravel
-```bash
- 8.75
 ```
 
 ## Correr Migración
